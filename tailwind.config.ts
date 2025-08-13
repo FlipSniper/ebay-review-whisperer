@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -43,6 +44,16 @@ export default {
 				accent: {
 					DEFAULT: 'hsl(var(--accent))',
 					foreground: 'hsl(var(--accent-foreground))'
+				},
+				warning: {
+					DEFAULT: 'hsl(var(--warning))',
+					foreground: 'hsl(var(--warning-foreground))'
+				},
+				trust: {
+					excellent: 'hsl(var(--trust-excellent))',
+					good: 'hsl(var(--trust-good))',
+					fair: 'hsl(var(--trust-fair))',
+					poor: 'hsl(var(--trust-poor))'
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
@@ -62,6 +73,13 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-hover)))',
+				'gradient-trust-excellent': 'linear-gradient(135deg, hsl(var(--trust-excellent)), hsl(142 71% 35%))',
+				'gradient-trust-good': 'linear-gradient(135deg, hsl(var(--trust-good)), hsl(86 78% 40%))',
+				'gradient-trust-fair': 'linear-gradient(135deg, hsl(var(--trust-fair)), hsl(38 92% 40%))',
+				'gradient-trust-poor': 'linear-gradient(135deg, hsl(var(--trust-poor)), hsl(0 75% 50%))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
