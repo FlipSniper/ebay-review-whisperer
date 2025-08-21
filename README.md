@@ -102,7 +102,7 @@ Yep thats right just looks clean doesn't really work
 
 ## So you might be wondering is it going to remain like this?
 Absolutely! Not!
-I will work hard. Getting AI to do all work for me!
+I will work hard.
 As AI is a bit too overpowered to not abuse it
 Anyways I'm going to keep writing until you know everything about this project.
 So I've been wondering about use cases and there's so many its amazing really!
